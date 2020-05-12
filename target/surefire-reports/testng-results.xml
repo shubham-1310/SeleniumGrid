@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="92808" started-at="2020-05-10T22:38:12 IST" finished-at="2020-05-10T22:39:45 IST">
+    <groups>
+    </groups>
+    <test name="SignUpPageTest" duration-ms="92808" started-at="2020-05-10T22:38:12 IST" finished-at="2020-05-10T22:39:45 IST">
+      <class name="com.automation.qa.testcases.SignUpPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="setup" is-config="true" duration-ms="77984" started-at="2020-05-10T22:38:12 IST" finished-at="2020-05-10T22:39:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterNewEmailAddress()[pri:1, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="enterNewEmailAddress" duration-ms="2085" started-at="2020-05-10T22:39:30 IST" finished-at="2020-05-10T22:39:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNewEmailAddress -->
+        <test-method status="PASS" signature="validateSignUpPageTitle()[pri:2, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="validateSignUpPageTitle" duration-ms="44" started-at="2020-05-10T22:39:32 IST" finished-at="2020-05-10T22:39:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpPageTitle -->
+        <test-method status="PASS" signature="validateSignUpPageHeaderText()[pri:3, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="validateSignUpPageHeaderText" duration-ms="144" started-at="2020-05-10T22:39:32 IST" finished-at="2020-05-10T22:39:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpPageHeaderText -->
+        <test-method status="PASS" signature="customertitleSelectMale()[pri:4, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="customertitleSelectMale" duration-ms="1975" started-at="2020-05-10T22:39:32 IST" finished-at="2020-05-10T22:39:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customertitleSelectMale -->
+        <test-method status="PASS" signature="enterCustomerFirstName()[pri:5, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="enterCustomerFirstName" duration-ms="657" started-at="2020-05-10T22:39:34 IST" finished-at="2020-05-10T22:39:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCustomerFirstName -->
+        <test-method status="PASS" signature="enterCustomerLastName()[pri:6, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="enterCustomerLastName" duration-ms="439" started-at="2020-05-10T22:39:35 IST" finished-at="2020-05-10T22:39:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCustomerLastName -->
+        <test-method status="PASS" signature="enterCustomerPassword()[pri:7, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="enterCustomerPassword" duration-ms="433" started-at="2020-05-10T22:39:35 IST" finished-at="2020-05-10T22:39:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCustomerPassword -->
+        <test-method status="PASS" signature="enterDateOfBirth()[pri:8, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="enterDateOfBirth" duration-ms="434" started-at="2020-05-10T22:39:36 IST" finished-at="2020-05-10T22:39:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDateOfBirth -->
+        <test-method status="PASS" signature="enterMonthOfBirth()[pri:9, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="enterMonthOfBirth" duration-ms="310" started-at="2020-05-10T22:39:36 IST" finished-at="2020-05-10T22:39:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterMonthOfBirth -->
+        <test-method status="PASS" signature="enterYearOfBirth()[pri:10, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="enterYearOfBirth" duration-ms="331" started-at="2020-05-10T22:39:36 IST" finished-at="2020-05-10T22:39:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterYearOfBirth -->
+        <test-method status="PASS" signature="enterAddressLine1()[pri:11, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="enterAddressLine1" duration-ms="529" started-at="2020-05-10T22:39:37 IST" finished-at="2020-05-10T22:39:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAddressLine1 -->
+        <test-method status="PASS" signature="enterCityName()[pri:12, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="enterCityName" duration-ms="435" started-at="2020-05-10T22:39:37 IST" finished-at="2020-05-10T22:39:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCityName -->
+        <test-method status="PASS" signature="enterStateName()[pri:13, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="enterStateName" duration-ms="290" started-at="2020-05-10T22:39:38 IST" finished-at="2020-05-10T22:39:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterStateName -->
+        <test-method status="PASS" signature="selectCountryName()[pri:14, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="selectCountryName" duration-ms="230" started-at="2020-05-10T22:39:38 IST" finished-at="2020-05-10T22:39:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryName -->
+        <test-method status="PASS" signature="enterPostalCode()[pri:15, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="enterPostalCode" duration-ms="333" started-at="2020-05-10T22:39:38 IST" finished-at="2020-05-10T22:39:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPostalCode -->
+        <test-method status="PASS" signature="enterMobileNumber()[pri:16, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="enterMobileNumber" duration-ms="480" started-at="2020-05-10T22:39:39 IST" finished-at="2020-05-10T22:39:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterMobileNumber -->
+        <test-method status="PASS" signature="addressReferenceName()[pri:17, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="addressReferenceName" duration-ms="548" started-at="2020-05-10T22:39:39 IST" finished-at="2020-05-10T22:39:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addressReferenceName -->
+        <test-method status="PASS" signature="clickOnRegisterButton()[pri:18, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="clickOnRegisterButton" duration-ms="4787" started-at="2020-05-10T22:39:40 IST" finished-at="2020-05-10T22:39:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnRegisterButton -->
+        <test-method status="PASS" signature="testTileOfMyAccountsPage()[pri:19, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="testTileOfMyAccountsPage" duration-ms="32" started-at="2020-05-10T22:39:44 IST" finished-at="2020-05-10T22:39:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTileOfMyAccountsPage -->
+        <test-method status="PASS" signature="validateUserName()[pri:20, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="validateUserName" duration-ms="144" started-at="2020-05-10T22:39:44 IST" finished-at="2020-05-10T22:39:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.qa.testcases.SignUpPageTest@12c8a2c0]" name="tearDown" is-config="true" duration-ms="126" started-at="2020-05-10T22:39:45 IST" finished-at="2020-05-10T22:39:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.qa.testcases.SignUpPageTest -->
+    </test> <!-- SignUpPageTest -->
+  </suite> <!-- Suite -->
+</testng-results>
