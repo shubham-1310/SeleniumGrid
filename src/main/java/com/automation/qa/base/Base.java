@@ -109,50 +109,50 @@ public class Base {
 			
 		
 		}
-// 	@BeforeSuite
-// 		public void gridSetup(){
-// 			try
-// 			{
-// 				// Just one line and you are done !
-// 				// We have given a command to start cmd
-// 				// /K : Carries out command specified by string
-// //           Runtime.getRuntime().exec(new String[] {"cmd", "/K", "Start && docker-compose up"});
-// 				Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"docker-compose up");
-// 				Thread.sleep(5000);
-// 				System.out.println("Selenium Grid creation successfull - Starting test");
-// 				Thread.sleep(5000);
-// 				Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"docker-compose scale chrome=4");
-// 				Thread.sleep(5000);
+	@BeforeSuite
+		public void gridSetup(){
+			try
+			{
+				// Just one line and you are done !
+				// We have given a command to start cmd
+				// /K : Carries out command specified by string
+//           Runtime.getRuntime().exec(new String[] {"cmd", "/K", "Start && docker-compose up"});
+				Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"docker-compose up");
+				Thread.sleep(5000);
+				System.out.println("Selenium Grid creation successfull - Starting test");
+				Thread.sleep(5000);
+				Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"docker-compose scale chrome=4");
+				Thread.sleep(5000);
 
-// 			}
-// 			catch (Exception e)
-// 			{
-// 				System.out.println("Selenium Grid initilalization failed, Normal execution begins");
-// 				e.printStackTrace();
-// 			}
+			}
+			catch (Exception e)
+			{
+				System.out.println("Selenium Grid initilalization failed, Normal execution begins");
+				e.printStackTrace();
+			}
 
-// 		}
-// 	@AfterSuite
-// 	public void gridClosure(){
-// 		try
-// 		{
-// 			// Just one line and you are done !
-// 			// We have given a command to start cmd
-// 			// /K : Carries out command specified by string
-// //           Runtime.getRuntime().exec(new String[] {"cmd", "/K", "Start && docker-compose up"});
-// 			Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"docker-compose down");
-// 			Thread.sleep(5000);
-// 			System.out.println("Selenium Grid shutdown Success");
+		}
+	@AfterSuite
+	public void gridClosure(){
+		try
+		{
+			// Just one line and you are done !
+			// We have given a command to start cmd
+			// /K : Carries out command specified by string
+//           Runtime.getRuntime().exec(new String[] {"cmd", "/K", "Start && docker-compose up"});
+			Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"docker-compose down");
+			Thread.sleep(5000);
+			System.out.println("Selenium Grid shutdown Success");
 
-// 			Runtime.getRuntime().exec("taskkill /f /im cmd.exe");
-// 		}
-// 		catch (Exception e)
-// 		{
-// 			System.out.println("Selenium Grid shutdown failed");
-// 			e.printStackTrace();
-// 		}
+			Runtime.getRuntime().exec("taskkill /f /im cmd.exe");
+		}
+		catch (Exception e)
+		{
+			System.out.println("Selenium Grid shutdown failed");
+			e.printStackTrace();
+		}
 
-// 	}
+	}
 }
 	
 
