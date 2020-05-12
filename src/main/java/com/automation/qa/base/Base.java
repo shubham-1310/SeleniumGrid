@@ -144,7 +144,7 @@ public class Base {
 			Thread.sleep(5000);
 			System.out.println("Selenium Grid shutdown Success");
 
-			Runtime.getRuntime().exec("taskkill /f /im cmd.exe");
+// 			Runtime.getRuntime().exec("taskkill /f /im cmd.exe");  -> Uncommet if not running in jenkins
 		}
 		catch (Exception e)
 		{
